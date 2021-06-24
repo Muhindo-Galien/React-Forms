@@ -20,6 +20,7 @@ function App() {
           onChange={HandleOnchange}
           type="text"
           placeholder="What's your name?"
+          value={name}
         />
         <button type="submit">Submit</button>
       </form>
